@@ -1,0 +1,16 @@
+
+/*myStyle.css that is the file name and apparently this is how you make comments good to know.*/
+body {
+	background-color: black;
+	color: white;
+}
+h1 {
+	color: lime;
+	text-align: center;
+font-family: "Trebuchet MS", Times, serif;
+}
+p {
+	color: white;
+	text-align: right;
+	font-size: 50px;
+}
