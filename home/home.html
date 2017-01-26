@@ -1,0 +1,481 @@
+<HTML>
+<HEAD>
+<TITLE>CustomInk Intranet</TITLE>
+<LINK REL="Stylesheet" HREF="style.css">
+<link rel="stylesheet" href="../common.css">
+<script type="text/javascript">
+// cookie stuff
+function WRcreateCookie(name,value,days)
+{
+        // figure our the domain
+        var d=document.domain;
+        if(d.search(/home\.\w+\.\w+/i)==0)
+                d=d.substring(5, d.length);
+        else
+                d=false;
+
+
+        // write the cookie
+        if (days)
+        {
+                var date = new Date();
+                date.setTime(date.getTime()+(days*86400000));
+                var expires = "; expires="+date.toGMTString();
+        }
+        else var expires = "";
+        document.cookie = name+"="+value+expires+"; path=/;"+(d?" domain="+d+";":"");
+}
+
+function WRGetRandToken()
+{
+        return Math.floor(Math.random()*2147483647); // stay bellow max signed long
+}
+</script>
+<script type="text/javascript" src="../javascripts/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="../javascripts/ci.js"></script>
+</HEAD>
+<BODY onLoad="WRcreateCookie('WRUID','0',3650); ">
+<!--
+Start of DoubleClick Floodlight Tag: Please do not remove
+Activity name of this tag: Negative Targeting 011917
+URL of the webpage where the tag is expected to be placed: http://tbd.com
+This tag must be placed between the <body> and </body> tags, as close as possible to the opening tag.
+Creation Date: 01/20/2017
+-->
+<script type="text/javascript">
+var axel = Math.random() + "";
+var a = axel * 10000000000000;
+document.write('<iframe src="https://6314436.fls.doubleclick.net/activityi;src=6314436;type=targe0;cat=negat0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=' + a + '?" width="1" height="1" frameborder="0" style="display:none"></iframe>');
+</script>
+<noscript>
+<iframe src="https://6314436.fls.doubleclick.net/activityi;src=6314436;type=targe0;cat=negat0;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe>
+</noscript>
+<!-- End of DoubleClick Floodlight Tag: Please do not remove -->
+<table align=center cellspacing=0 cellpadding=0>
+<tr>
+<td colspan=3>
+<form name=filterform method='post' action="/back/production/summarylite.jsp">
+<table width="80%" border="0" cellpadding="2" cellspacing="0">
+<tr>
+<td><font style="font-size: 18px">welcome to home.customink.com...</font></td>
+<td align="right"> <font style="font-size: 18px">lookup order:</font> <input type=text size="8" name='search' value=""> <input type=submit value="Refresh">
+<input type=hidden name="mode" value="1" >
+<input type=hidden name="type" value="tracking_no" >
+<input type=hidden name="fromdate" value="" >
+<input type=hidden name="todate" value="" >
+</td>
+<td align="right">For any issues (backend or computer issues), please click the <b>Help</b> button at the top right hand corner of any page.
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr>
+<td colspan=3>
+<ul>
+  <li>
+    <a href="http://blogs.customink.office/bigpicture/"><b><u>The Inkformation Station</u></b></a>
+    | <a href="http://workday.customink.com/"><u>Workday</u></a>
+    | <a href="http://home.customink.com/internal_content/videos/"><u>Video of Company-wide Meeting with Slides</u></a><br>
+  </li>
+</ul>
+</td>
+</tr>
+<tr valign=top>
+<td>
+<ul>
+  <li>Wikis:
+	    <a href="https://wiki.customink.com/display/ecom">Ecommerce</a>
+	  | <a href="https://wiki.customink.com/pages/viewpage.action?pageId=24346990">EPA/PA</a>
+	  | <a href="https://wiki.customink.com/display/LA/Logistics+Dashboard">LA</a>
+	  | <a href="https://wiki.customink.com/display/marketing/Home">Marketing</a>
+	  | <a href="https://wiki.customink.com/display/ot/Welcome">Operations Technology</a>
+	  | <a href="https://wiki.customink.com/display/SA/Satisfaction+Assurance+Dashboard">SA</a>
+	  | <a href="https://inkernet.customink.com/display/ss/Sales+and+Service+Dashboard">Sales/Service</a>
+	  | <a href="https://wiki.customink.com/display/SSA/Singles+SA+Dashboard">Singles SA</a>
+	  <br/><br/>
+	</li>
+  <li><a href="http://teamdirectory.apps.customink.office/">Team Directory</a></li>
+</ul>
+</td>
+<td colspan="2">
+  <ul>
+    <li>Blogs:
+      <a href="http://blogs.customink.office/operations/">Operating Guidelines</a> |
+      <a href="http://blogs.customink.office/ops/">Operations Technology</a> |
+      <a href="http://marketinglog.customink.com/">Marketing</a> |
+      <a href="http://marketing.customink.office/rhm">Revenue Health Monitoring</a> |
+      <a href="http://www.customink.com/uc/feedback.xml">Uncensored Customer Reviews</a> |
+      <a href="http://blogs.customink.office/teamdev/">Team Development</a> |
+      <a href="http://blogs.customink.office/products/">Products</a>
+</ul>
+</td>
+</tr>
+<tr>
+<td colspan=3>
+<ul>
+<li><B>ANNOUNCEMENTS</B><br><br>
+<ul>
+<li> <B>Department Extensions --> Service/Sales: x259 / Technology: x274 / Production - Procurement: x276 / Production - Order Control: x277 / Production - Expert Artists: x278</B></font><BR><BR>
+<li> <B>For emergency info number, please <a href="emergency_info.html" style="text-decoration: underline; font-weight: bold">click here</a>.</B></font><BR><BR>
+<li><span class="highlight"><b>To run any of the reports below for <i>date ranges longer than 7 days</i> please use <a href="http://be-reports.in.customink.com/back/welcome/index.html"><b><u>Backend Reports</b></u></a></b></span>
+</ul>
+</ul>
+</td>
+</tr>
+<tr>
+    <td valign=top align=left>
+      <ul>
+        <li><b>ADMINISTRATION</b><br>
+          <br>
+          <ul>
+            <li><a href="/backend/account">intranet login</a> <br>
+                <br>
+            <li><a href="https://home.customink.com/back/kb/index.jsp">knowledge base</a> <br>
+                <br>
+            <li><a href="http://reports.customink.com">Reporting portal (Crystal)</a> <br>
+                <br>
+            <li><a href="https://home.customink.com/back/kb/index.jsp?C=1970&G=none">customink handbook</a> <br>
+                <br>
+    <li><a href="http://www.customink.com/jobs/">job listings</a> <br>
+              <BR>
+          <li><a href="file://itshare.customink.office/share/Town Hall Meetings/">town hall meeting videos</a> <br>
+              <BR>
+                  <li><a href="https://mail.google.com/a/customink.com/#">Email Web Client Interface</a><br>
+              <BR>
+        <li><a href="https://picasaweb.google.com/112543109109476009818">inker photos</a> <br>
+                  <BR>
+            <li><a href="/back/production/acc_summary.jsp">accounting overview</a> <br>
+              <BR>
+            <li><a href="/back/accounting/revenue.jsp">revenue</a> <BR>
+              <BR>
+            <li><a href="/back/accounting/cashreceipts.jsp">cash receipts</a> <BR>
+              <BR>
+            <li><a href="/back/admin/tcpayment.jsp">tc payment</a><BR>
+              <BR>
+            <li><a href="/back/accounting/blrec.jsp">blanks reconciliation</a> <BR>
+              <BR>
+            <li><a href="/back/accounting/printrec.jsp">print reconciliation</a> <BR>
+              <BR>
+            <li><a href="/back/production/margin.jsp">margin</a>
+              <BR>
+              <BR>
+<li><a href="/back/marketing/order_breakdown.jsp">order breakdown</a>
+              <BR>
+              <BR>
+    <li><a href="/back/accounting/licensing/summary.jsp">licensing</a>
+              <BR>
+              <BR>
+            <li><a href="/back/admin/employee_view.jsp">employee database</a>
+              <BR>
+              <BR>
+            <li><a href="/back/admin/memberinfo.jsp">add/change employee info</a>
+              <BR>
+              <BR>
+            <li><a href="/back/admin/problem_edit.jsp">edit problems</a>
+              <BR>
+              <BR>
+            <li><a
+              href="/mms/admin/styles/realb_approvals/">realB approvals</a>
+              <BR>
+              <BR>
+            <li><a href="/back/welcome/efax.html">efax management</a> <BR>
+              <BR>
+            <li><a href="/back/accounting/cc_rec.jsp">credit card rec</a> <BR>
+              <BR>
+            <li><a href="/back/accounting/CCcharges.jsp">credit card charges</a> <BR>
+              <BR>
+            <li><a href="/back/accounting/po_stats.jsp">po stats</a> <BR>
+              <BR>
+            <li><a href="/back/reps/">team commission</a> <BR>
+              <BR>
+            <li><a href="/internal_content/orientation/index.html">orientation</a> <BR>
+              <BR>              <br>
+          </ul>
+        <li><B>CUSTOMER EXPERIENCE</B> <BR>
+          <BR>
+          <ul>
+            <li><a href="http://www.customink.com/">www.customink.com</a><br><br></li>
+            <li><a href="http://dyo.customink.com/">Old Singles site</a><br><br></li>
+            <li><a href="/back/ce/customerActivity.jsp">customer activity</a> <br><br></li>
+            <li><a href="/backend/reports/daily_orders">sales service daily orders</a><br>
+              <br>
+   <li><a href="https://dyo.customink.com/v2-prod/activityReport.do">dyo customer activity</a><br>
+              <br>
+             <li><a href="/back/marketing/products.jsp">product popularity</a>
+              <BR>
+              <BR>
+        <li><a href="/back/marketing/pftsurvey_results.jsp">post-feedback survey results</a>
+              <BR>
+              <BR>
+        <li><a href="/back/marketing/sdmailtrack.jsp">saved design email stats</a>
+              <BR>
+              <BR>
+  <li><a href="/back/site/ideas/stats.jsp?threshold=50">design idea popularity</a>
+              <BR>
+              <BR>
+   <li><a href="/back/marketing/feedbacks.jsp">customer satisfaction metrics</a>
+              <BR>
+              <BR>
+              <li><a href="/back/sales/cust_feedback.jsp">customer feedback</a> <BR>
+              <BR>
+
+      <li><a href="https://www.customink.com/admin/design_ideas">design ideas: admin tool</a> <BR>
+              <BR>
+      <li><a href="https://www.customink.com/admin/design_ideas/stats">design ideas: statistics</a> <BR>
+              <BR>
+      <li><a href="http://www.customink.com/lab/?S=internal">design ideas: internal lab</a> <BR>
+              <BR>
+            <li><a href="/mms/">Merchandise Management System (mms/new catalog)</a> <br>
+              <br>
+              <BR>
+            <li><a href="http://welcome.coremetrics.com/">coremetrics</a> <BR>
+        <BR>
+            <li><a href="/back/sales/service_emails.jsp">email database</a> <BR>
+              <BR>
+      <li><a href="https://www.customink.com/admin/default_artist_notes">proof approval defaults</a> <BR>
+              <BR>
+      <li><a href="/back/marketing/peml_tracker.jsp">proof approval tracking</a> <BR>
+              <BR>
+      <li><a href="/back/ce/art/loader/">art: loader</a> <BR>
+              <BR>
+      <li><a href="/back/ce/art/processor/process_start.jsp">art: processor</a> <BR>
+              <BR>
+      <li><a href="http://booster.customink.office">art: booster</a> <BR>
+              <BR>
+       <li><a href="/back/ce/art/processor/keyword_metrics.jsp">art: processing metrics</a> <BR>
+              <BR>
+       <li><a href="/back/ce/art/manager/">art: clipart manager</a> <BR>
+              <BR>
+       <li><a href="/back/site/galleryimages/artdbAdmin.jsp">art: old clipart manager</a> <BR>
+              <BR>
+       <li><a href="http://www.customink.com/cink/create/image/test/clipart2.jsp">art: image search</a> <BR>
+              <BR>
+       <li><a href="http://sugarcube.customink.com/watchman/report/clipart.php">art: sugarcube</a> <BR>
+              <BR>
+       <li><a href="/back/ce/searchreport.jsp?A=A">search reports</a> <BR>
+              <BR>
+             <li><a href="/back/marketing/sdfu_content_frames.html">sd followup content</a> <BR>
+              <BR>
+ <li><a href="http://www.customink.com/cink/r.jsp?H=/cink/ideabox/index.jsp">idea box</a> <BR>
+              <BR>
+
+
+          </ul>
+        <li><b>CUSTOMER RELATIONSHIP DEVELOPMENT</b><br/><br/></li>
+          <ul>
+            <li><a href="http://crd.customink.com">CRD Hub / SugarCRM</a><br/><br/></li>
+              <li><a href="http://sugarcrm.customink.com/product_mappings/">Product Mappings</a><br/><br/></li>
+            <li><a href="http://www.customink.com/photos/login">Ink of the Week Admin</a><br/><br/></li>
+            <li><a href="https://interact2.responsys.net/interact/login/LoginPage">Responsys</a><br/><br/></li>
+            <li><a href="http://sugarcube2.customink.office/wiki/pmwiki.php">Marketing Wiki</a><br/><br/></li>
+            <li><a href="http://marketing-svn.customink.office/">Marketing Subversion</a><br/><br/></li>
+            <li><a href="http://sugarcube.customink.com/watchman/report/nps.php">NPS Survey</a><br/><br/></li>
+            <li><a href="http://sugarcube.customink.com/watchman/report/">CRD Reports</a><br/><br/></li>
+            <li><a href="http://sugarcube2.customink.office/searchengines/">SEM Comparison</a><br/><br/></li>
+            <li><a href="http://inkspot.customink.com/iotw/photo/rss.xml">Ink of the Week (RSS)</a><br/><br/></li>
+            <li><a href="http://myspace.com/mytshirt">Myspace</a><br/><br/></li>
+          </ul>
+  </ul>
+</td>
+    <td valign=top align=left>
+  <ul>
+        <li><B>MARKETING</B> <BR>
+          <BR>
+          <ul>
+            <li><a href="/back/marketing/summary.jsp">marketing overview</a> <BR><BR>
+            <li><a href="/back/marketing/segment.jsp">segment/channel/timing</a><BR><BR>
+            <li><a href="/back/marketing/interactions_report.jsp">MyAP orders / Interactions report</a><BR><BR>
+            <li><a href="http://www.customink.com/admin/sales?OA=true">Order Analysis</a><BR><BR>
+            <li><a href="/back/marketing/bizdist.jsp">volume distribution</a><BR><BR>
+            <li><a href="/back/marketing/trending.jsp">segment/channel trending</a><BR><BR>
+          <li><a href="/back/marketing/fbrfconv.jsp">referral conversion</a><BR><BR>
+          <li><a href="/back/marketing/retention.jsp">customer retention</a><BR><BR>
+          <li><a href="/back/marketing/analyze_count.jsp">analyze q performance</a><BR><BR>
+            <li><a href="/back/marketing/keywords.jsp">keywords</a><BR><BR>
+        <li><a href="/back/marketing/why_us_tool.jsp">why us tool</a><BR><BR>
+        <li><a href="/back/marketing/why_us_report.jsp">why us report</a><BR><BR>
+            <li><a href="/back/marketing/sdfu_report.jsp">SD followup</a> <br><BR>
+            <li><a href="/back/marketing/contestreport.jsp">Ink Of Week Report (Old)</a> <br><BR>
+            <li><a href="/back/sales/coupontrack.jsp">coupon tracker</a> <br><BR>
+            <li><a href="/back/marketing/couponusage.jsp">coupon usage</a> <br><BR>
+            <li><a href="/back/admin/mark_channel_view.jsp?g">channel editor</a> <br><BR>
+            <li><a href="http://marketinglog.customink.com">Marketing Log</a> <br><BR>
+            <li><a href="https://rtm.coremetrics.com">Coremetrics Real Time Monitor</a> <br><BR>
+          </ul>
+        <li><B>PRODUCTION</B> <BR>
+          <BR>
+          <ul>
+            <li><a href="/back/production/summarylite.jsp">production overview lite</a> <BR><BR>
+            <li><a href="/back/production/">production overview</a> <BR><BR>
+      <li><a href="/back/production/stats/p_stats.html">stats</a><br><br>
+      <li><a href="/back/production/productionbacklog.jsp">production backlog report</a> <BR><BR>
+      <li><a href="/back/production/vendorbacklog.jsp">vendor backlog report</a> <BR><BR>
+      <li><a href="/back/production/capacity/capacity_view.jsp">capacity</a> <BR><BR>
+            <li><a href="/productiondownload/">downloads</a><br><br>
+            <li><a href="/ihp">IHP Bulk Production</a><br><br>
+  </ul>
+  <li><b>PRODUCTION ART</b><BR><BR>
+  <ul>
+    <li><a href="/backend/constraints/">constraints browser</a><br><br>
+    <li><a href="/back/production/processor/">AA performance reports</a> <BR><BR>
+           <li><a href="/back/production/artistbonus.jsp">AE performance reports</a> <BR><BR>
+            <li><a href="/back/admin/bonus.html">performance reports</a> <BR><BR>
+       <li><a href="/back/production/production_accuracy.jsp">production accuracy report</a> <BR><BR>
+    <li><a href="/back/production/prodart_performance.jsp">performance metrics</a> <BR><BR>
+    <li><a href="/backend/artpage">artwork claims (artpage)</a><br><br>
+    <!-- <li><a href="/back/production/resetprecon.jsp">reset preconstruct</a><br><br> -->
+            <li><a href="/back/production/claimswatch.jsp">claims watch</a><br><br>
+             <li><a href="/back/production/critical.jsp">critical orders</a><br><br>
+             <li><a href="/back/production/claimswatch_critical.html">claims watch/critical orders</a><br><br>
+             <li><a href="/back/production/artproductivity2.jsp">art productivity</a><br><br>
+             <li><a href="http://wiki.customink.com/pages/viewpage.action?pageId=9406203">Art resources & guidelines</a><br><br>
+             <li><a href="http://clipart.customink.com/clipart/admin/cliparts/search">clipart download</a><br><br>
+    </ul>
+  <li><b>ORDER CONTROL</b><BR><BR>
+  <ul>
+  <li><a href="http://www.ups.com/content/us/en/index.jsx">UPS.com</a><br><br>
+            <li><a href="/back/welcome/prodcalendar.html">training calendar</a> <BR><BR>
+                 <!-- <li><a href="/temp/logs/Tracker_log_link">tracking logs</a> <BR><BR> -->
+            <li><a href="/back/vendors/voidupslabel.jsp">void UPS label</a> <BR><BR>
+            <li><a href="/back/production/productivity.jsp">productivity/workload report</a> <BR><BR>
+            <li><a href="/back/production/printer_instructions.jsp">printer instructions editor</a> <BR><BR>
+    <li><a href="/back/production/oc_manager.jsp">oc assignment</a><br><br>
+    <li><a href="/back/production/adminOverride.jsp">admin override</a> <br><BR>
+    <li><a href="/back/production/oc_goodies.html">OC goodies</a> <br><BR>
+ <li><a href="/back/production/ocprod.jsp">oc productivity</a> <br><BR>
+ <li><a href="/back/production/oc_margin_report.jsp">oc margin</a> <br><BR>
+ <li><a href="/back/production/oc_accuracy_report.jsp">oc large order accuracy</a> <br><BR>
+ <li><a href="/back/production/oc_accuracy_component.jsp">oc overall accuracy</a> <br><BR>
+ <li><a href="/back/production/oc_customer_satisfaction_report.jsp">oc customer satisfaction</a> <br><BR>
+ <li><a href="/back/production/oc_finalizing_backlog.jsp">oc finalizing backlog</a> <br><BR>
+ <li><a href="/backend/buffer_days">Buffer days</a> <br><BR>
+  </ul>
+  <li><b>VENDOR NETWORK</b><BR><BR>
+  <ul>
+    <li><a href="/backend/vendor/detail">vendor manager</a> <BR> <BR>
+    <li><a href="/back/production/vendor_manager.jsp">vendor contacts</a> <BR> <BR>
+    <li><a href="/back/production/mastervendor.html">vendor site</a> (admin login) <BR><BR>
+    <li><a href="/backend/vendor/capacity_by_assigned_states">vendor capacity</a> <BR><BR>
+    <li><a href="/backend/vendor/supplies?admin_mode=true">vendor supplies</a> <BR><BR>
+    <li><a href="/back/production/problem_review.jsp">problem review report</a><BR> <BR>
+    <li><a href="/back/admin/printer.html">printer report</a> <BR><BR>
+    <li><a href="/back/vendors/printer_accuracy.jsp">printer accuracy report</a> <BR><BR>
+    <li><a href="/back/production/printer_returns_summary.jsp">printer returns</a><br><br>
+    <li><a href="/back/production/printer_chargebacks.jsp">printer chargebacks (OLD)</a><br><BR>
+    <li><a href="/back/production/printer_chargebacks2.jsp">printer chargebacks (NEW)</a><br><BR>
+    <li><a href="/back/accounting/printrecsummary.jsp">printer rec summary</a><br><BR>
+    <li><a href="http://pct.in.customink.com">print cost q</a> <br><BR>
+    <li><a href="/back/production/printcost_review_q.jsp">print cost review q</a> <br><BR>
+  </ul>
+  <li><b>PROCUREMENT</b><BR><BR>
+    <ul>
+            <li><a href="/back/production/blanks/procure_savings.jsp">blanks savings (old)</a> <BR><BR>
+            <li><a href="/back/production/blanks/blanksuppliers.jsp">supplier manager</a><br><BR>
+    <li><a href="/back/production/blanks/">blanks system</a><br><br>
+   <li><a href="/back/production/proc_accuracy.jsp">procurement accuracy</a><br><br>
+    <li><a href="/back/production/blanks/proc_productivity.jsp">procurement productivity</a><br><br>
+    <li><a href="/back/production/blanks/savingsreport.jsp">procurement savings</a><br><br>
+    <li><a href="/back/production/blanks/pending_returns.jsp">pending blanks returns</a><br><br>
+    <li><a href="/back/production/blanks/assignBA.jsp">order assignment</a><br><br>
+    <li><a href="/back/production/blanks/supplier_accuracy.jsp">supplier accuracy</a><br><br>
+    <li><a href="/back/production/blanks/styleNotes.jsp">style notes</a><br><br>
+    <li><a href="/back/production/blanks/show_ba_actions.jsp">procurement order action history</a><br><br>
+          </ul>
+      </ul>
+</td>
+    <td valign=top align=left>
+      <ul>
+        <li><B>SERVICE/SALES</B> <BR>
+          <BR>
+          <ul>
+            <li><a href="http://www.customink.com/admin/sales">Embassy</a> <BR>
+              <BR>
+            <li><a href="https://dyo.customink.com/v2-prod/new/orderList.htm">Singles Backend</a> <BR>
+              <BR>
+            <li><a href="https://www.customink.com/admin/quotes">SuperQuoter</a><BR>
+              <BR>
+            <li><a href="/backend/ss/crew_member_profiles">SS Crews/Profiles</a> <BR>
+              <BR>
+            <li><a href="/back/sales/coupon.jsp">coupon creator</a> <BR>
+              <BR>
+      <li><a href="/back/sales/voucher.jsp">voucher update</a> <BR>
+              <BR>
+          <li><a href="/back/sales/realb.jsp">blank cost table</a> <BR>
+              <BR>
+          <li><a href="/back/sales/editrep.jsp">reassign order</a> <BR>
+              <BR>
+            <li><a href="/back/production/sssatisfaction.jsp">satisfaction rating report
+             </a> <BR> <BR>
+            <li><a href="/back/sales/commdiscard.jsp">discard comms</a> <BR> <BR>
+             <li>Email Admin: <a href="/backend/service_email_types">default footers</a> | <a href="/back/sales/service_emails.jsp">email templates</a> <BR> <BR>
+          <li><a href="#" onClick="window.open('/back/ce/catalog/stylenotes.jsp','','width=500,height=700,status=yes,resizable=yes,scrollbars=yes');">style notes (out-of-stock, etc.)</a><BR>
+              <BR>
+          <li><a href="Remote%20UCN%20setup%20Instructions.doc">Remote UCN Setup Instructions</a> <BR>
+              <BR>
+          <li><a href="https://www.customink.com/remove/">Customer Opt-Out</a> <BR> <BR>
+             <li><a href="http://clipart.customink.com/clipart/admin/cliparts/search">clipart download</a><br><br>
+  </ul>
+        <li><b>TECHNOLOGY</b><br>
+          <br>
+          <ul>
+            <li><a href="http://www.customink.com/admin/sales?CSL=true">SA Embassy</a> <BR>
+              <br>
+            <li><a href="/backend/people/">SA reinforcement admin</a> <BR>
+              <br>
+            <li><a href="/backend/orders/">Logistics</a> <BR>
+              <br>
+            <li><a href="/backend/account">intranet login</a> <br>
+                <br>
+            <li><a href="http://10.0.0.219/">nagios</a> <br>
+    <br>
+            <li><a href="http://10.0.0.30/cacti">cacti</a> <br>
+    <br>
+        <li><a href="http://10.0.0.220:7080/Dashboard.do">Hyperic</a> <br>
+    <br>
+            <li>jamon <a href="http://customink.com/cink/tech/JAMonAdmin.jsp">cink</a> | <a href="/back/technology/JAMon/JAMonAdmin.jsp">back</a> <br>
+    <br>
+            <li><a href="/back/technology/dbconn.jsp">db connections</a> <br>
+                <br>
+            <li><a href="/back/production/ordercheck.jsp">order audit</a> <br>
+                <br>
+            <li><a href="/back/accounting/transactions/transaction_audit.jsp">transaction audit</a> <br>
+                <br>
+            <li>admin: <a href="http://pin4.customink.com/back/welcome/">pin4/mia1</a>
+    <BR>
+    <BR>
+           <!-- <li>spare: <a href="http://pin3.customink.com/back/welcome/">pin3</a> | <a href="http://pin5.customink.com/back/welcome/">pin5/mia2</a> | <a href="http://pin6.customink.com/back/welcome/">pin6/mia3</a>
+    <BR>
+    <BR>-->
+            <li><a href="http://2wire.com/?p=154">bandwidth</a> <br>
+                <br>
+            <li><a href="http://www.alertsite.com/">alert site</a> <br>
+                <br>
+            <li><a href="http://www.scanalert.com/">scan alert</a> <br>
+                <br>
+            <li><a href="http://customink.com/cink/create/showcig.jsp?E=spam@timplourde.com&F=030305t1">show cig</a> <br>
+                <br>
+   <li><a href="/back/ce/activity2.jsp">checkout success rate</a><br>
+    <br>
+   <li><a href="/back/ce/activityskip.jsp">order utilization rate</a><br>
+    <br>
+<li><a href="/back/technology/dd/">data dictionary</a><br><BR>
+<li><a href="/back/technology/lastsaved.jsp">recent saved designs</a><br>
+                <br>
+         <li><a href="https://helpdesk.neovera.com">Neovera Help Desk (DBA)</a><br>
+               <br>
+         <li><a href="https://central.neovera.com/CustomInk">Neovera Customer Portal</a><br>
+                <br>
+                      <li><a href="http://www.internethealthreport.com/">Internet Health Report</a><br>
+                <br>
+          <li><a href="/back/logout.jsp">logout</a><br>
+          </ul>
+      </ul>
+</td>
+</tr>
+</table>
+</BODY>
+</HTML>
+
+

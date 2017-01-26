@@ -1,0 +1,33 @@
+body,P,TD,TR,TABLE,H1,H2,H3,H4,H5,H6,A,text,input,select,textarea {
+        font-family : Tahoma, Verdana, Arial, Helvetica, sans-serif;
+		  font-size : 12px;
+			  color : #333366;
+				font-weight: normal;
+					line-spacing: normal;
+   }
+
+.buttons {
+	BACKGROUND-COLOR: #CCCCCC;
+	COLOR: #333366;
+	FONT-SIZE: 12px;
+	FONT-WEIGHT: bold;
+}
+
+
+.footer {
+	font-size : 12px;
+}
+
+.highlight{
+  background-color: #FFFF99;
+}
+
+.heading {
+	color: #FFFF99;
+	font-weight: bold;
+}
+
+A:link {color: #333366; font-weight: normal; text-decoration: none}
+A:active {color: #333366; font-weight: normal; text-decoration: none}
+A:visited {color: #333366; font-weight: normal; text-decoration: none}
+A:hover {background-color: #00FF00; font-weight: normal; text-decoration: none}

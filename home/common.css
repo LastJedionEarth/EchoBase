@@ -1,0 +1,104 @@
+body,P,TD,TR,TABLE,H1,H2,H3,H4,H5,H6,A,text,textarea,input,select{font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; font-size: 12px; }
+
+.readonly {background-color: #DDDDDD;}
+.auto-calculated {background-color: #ffdc2e}
+.button {color: #000000; }
+.persfontn{font-size:11px; }
+.persfont{font-size:10px; }
+.persbfont{font-size:10px;font-weight:bold; }
+.pwarnfont{font-size:9px;color:#ff0000;}
+.schedfont{font-size:10px;}
+.schedfonth{font-size:11px;font-weight:bold;}
+.schedfonthw{font-size:11px;font-weight:bold;color:#ffffff;}
+.schedfontm{font-size:11px;}
+.bgvline{background:url("production/images/vertical.gif") repeat-y center;}
+.bgrtarrow{background:url("production/images/rightarrow.gif") no-repeat right top;}
+.bgltarrow{background:url("production/images/leftarrow.gif") no-repeat left bottom;}
+.blend{border:none;}
+TABLE TD.bgtp {border-top:SOLID #000000 2px;border-bottom:SOLID #000000 2px;}
+
+#cancel-reason { width: 100% }
+#cancel-description-frame { margin-top: 6px; }
+#cancel-description { margin: 0; padding: 8px; _height: 75px; }
+.ships_with_group_note{
+    font-weight: bold;
+    background-color: yellow;
+    margin: 5px;
+}
+
+.note-section {
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-color: #f4f4f4;
+  margin-top: 8px;
+}
+.note-section legend {
+  font-weight: bold;
+  font-size: 14px;
+  padding: 0 8px;
+}
+.note {
+  margin-bottom: 8px;
+}
+.note.odd {
+  background-color: #f4f4f4;
+}
+.note .header {
+  width: 160px;
+  align: right;
+  text-align: right;
+}
+.note .user {
+  font-weight: bold;
+  font-size: 10.5px;
+}
+.note .user em {
+  font-weight: normal;
+  margin-right: 2px;
+}
+.note .content {
+  padding-left: 16px;
+}
+.note .content em {
+  font-size: 11px;
+}
+.note .header, .note .content {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.note.odd .header, .note.odd .content {
+  border-top: 1px solid #f0f0f0;
+}
+.note .type, .note .type a {
+  font-size: 9px;
+}
+
+#help {
+  position: fixed;
+  top: 2px;
+  right: 11px;
+  color: white;
+  font: bold 10px arial;
+  text-decoration: bold;
+  padding: 5px 8px 5px 8px;
+  background-color: #f37321;
+}
+#help.hover {
+  border: 1px solid #bbb;
+  background-color: #f4f4f4;
+  color: black;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+.hidden{
+  visibility: hidden;
+}
+.whats_this{
+  background-color: #99ccff;
+  font-weight: bold;
+  font-weight: 14px;
+  padding: 3px;
+  margin: 1px;
+  color: black;
+}
