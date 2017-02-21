@@ -1,11 +1,31 @@
 
 /*myStyle.css that is the file name and apparently this is how you make comments good to know.*/
+header {
+	background-color: grey;
+	color: red;
+	text-align: right;
+}
+li {
+	display: inline;
+	padding: 10px;
+
+}
+
+#hero {	
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 700px;
+	text-align: center;
+font-family: "Trebuchet MS", Times, serif;
+}
+
 body {
 	background-color: black;
 	color: white;
 }
 h1 {
-	color: lime;
+	color: red;
 	text-align: center;
 font-family: "Trebuchet MS", Times, serif;
 }
