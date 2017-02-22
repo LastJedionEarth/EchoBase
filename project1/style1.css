@@ -1,0 +1,48 @@
+
+/*myStyle.css that is the file name and apparently this is how you make comments good to know.*/
+img {
+	height: 100%;
+}
+
+#container {
+	width: 1400px;
+	background: yellow;
+	margin: 20px;
+}
+#nav {
+	background-color: grey;
+	width: 200px;
+	float: left;
+	height:600px;
+}
+
+#navheader{
+	background-color: blue;
+	height: 50px;
+}
+#navbody {
+	background-color: green;
+	height: 200px;
+}
+#content {	
+	width: 1160px;
+	height: 700px;
+	font-family: "Trebuchet MS", Times, serif;
+	margin: 5px;
+	background-color: purple;
+	float: left;
+}
+#hero{
+	background-color: red;
+	height: 300px;
+}
+#filtersearch {
+	background-color: teal;
+	height: 50px;
+}
+#gridholder {
+	background-color: orange;
+	height: 300px;
+}
+
+
