@@ -1,7 +1,7 @@
 
 /*myStyle.css that is the file name and apparently this is how you make comments good to know.*/
 #container {
-	width: 800px;
+	width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 	background: yellow;
@@ -21,6 +21,12 @@
 	margin: 0px;
 	padding: 10px;
 	list-style-type: none;
+	vertical-align: middle;
+	}
+
+#header a {
+	text-decoration: none;
+
 }
 #hero {	
 	margin-left: auto;
@@ -34,5 +40,3 @@
 #hero img{
 	max-width: 780px;
 }
-
-
