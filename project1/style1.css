@@ -10,8 +10,7 @@ img {
 }
 
 #container {
-	width: 1400px;
-	background: yellow;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right:auto;
 	
@@ -84,16 +83,24 @@ ul {
 	background-color: teal;
 	height: 50px;
 }
-/*#gridholder {
+.searchform{
+	float: right;
+	width: 300px;
+}
+#gridholder {
+	display: flex;
 	background-color: blue;
-	height: 300px;
-}*/
+	justify-content: center;
+	align-items: center;
+}
 #gridholder2 {
-	max-width: 1100px;
+	width: 95%;
+	height: 95%;
 	box-sizing: border-box;
 	justify-content: center;
 	display: flex;
 	flex-wrap: wrap;
+	background-color: orange;
 }
 
 .card {
@@ -120,9 +127,6 @@ ul {
 	margin-right: auto;
 
 } 
-form{
-	width:500px;
-}
 .searchrounded { 
 	padding:6px 15px 6px 30px;
 	margin:3px; 
